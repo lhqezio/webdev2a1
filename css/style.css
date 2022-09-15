@@ -1,0 +1,52 @@
+body {
+    text-align: center;
+}
+#main_container {
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    width: 80%;
+    margin: auto;
+    background-color: rgb(236,237,242);
+    padding: 30px;
+}
+header,footer{
+    background-color: rgb(54,73,130);
+    color: white;
+    padding: 30px;
+}
+#middle-section{
+    background-color: rgb(169,171,179);
+    padding: 10px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+#top-section{
+    background-color: rgb(206,204,202);
+    padding: 7px;
+    margin: 10px;
+}
+form{
+    display: flex;
+}
+form div{
+    flex: 1;
+    width: 10px;
+    padding: 5px;
+
+}
+form div input{
+    width: 30%;
+    height: 70%;
+}
+#main-section{
+    background-color: deepskyblue;
+    padding: 5px;
+}
+#table-render-space{
+    padding: 5px;
+    background-color: antiquewhite;
+}
+#table-html-space{
+    padding: 5px;
+    background-color: red;
+}
