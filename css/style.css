@@ -27,16 +27,43 @@ header,footer{
 }
 form{
     display: flex;
+    justify-content: space-between;
 }
-form div{
-    flex: 1;
-    width: 10px;
-    padding: 5px;
+form div {
+    flex: 1 1 0;
+    margin: 0 25px;
 
 }
-form div input{
-    width: 30%;
-    height: 70%;
+legend{
+    box-sizing: border-box;
+    padding: 0;
+    width: 100%;
+}
+#tcolor{
+    width: 100%;
+}
+fieldset{
+    padding: 0;
+    min-width: 0;
+    box-sizing: border-box;
+    width: 78%;
+}
+.big fieldset {
+    width: 100%;
+}
+.big input{
+    width: 80%;
+}
+input{
+    width: 45%;
+    height: 30px;
+    margin-top: -17px;
+}
+#bgcolor {
+    width: 70%;
+}
+#bwidth{
+    width: 40%;
 }
 #main-section{
     background-color: deepskyblue;

@@ -11,34 +11,47 @@
             <section id="top-section">
                 <form>
                     <div>
-                        <label for="rcount">row-count</label><br>
-                        <input type="text" id="rcount" name="rcount" value="1">
+                        <fieldset>
+                            <legend for="rcount">row count</legend><br>
+                            <input type="text" id="rcount" name="rcount" value="2" pattern="[0-9]+">
+                        </fieldset>
                     </div>
                     <div>
-                        <label for="ccount">col-count</label><br>
-                        <input type="text" id="ccount" name="ccount" value="1">
+                        <fieldset>
+                            <legend for="ccount">col count</legend><br>
+                            <input type="text" id="ccount" name="ccount" value="2">
+                        </fieldset>
                     </div>
                     <div>
-                        <label for="twidth">table width</label><br>
-                        <input type="number" id="twidth" name="twidth">
+                        <fieldset>
+                            <legend for="twidth">table width</legend><br>
+                            <input type="number" id="twidth" name="twidth" value="80">
+                        </fieldset>
                     </div>
                     <div>
-                        <label for="tcolor">text color</label><br>
-                        <input type="color" id="tcolor" name="tcolor">
+                        <fieldset>
+                            <legend for="tcolor">text color</legend><br>
+                            <input type="color" id="tcolor" name="tcolor">
+                        </fieldset>
                     </div>
-                    <div>
-                        <label for="bgcolor">background color</label><br>
-                        <input type="color" id="bgcolor" name="bgcolor" value="#FFFFFF">
+                    <div class="big">
+                        <fieldset>
+                            <legend for="bgcolor">bg color</legend><br>
+                            <input type="color" id="bgcolor" name="bgcolor" value="#FFFFFF">
+                        </fieldset>
                     </div>
-                    <div>
-                        <label for="bwidth">border width</label><br>
-                        <input type="text" id="bwidth" name="bwidth">
+                    <div class="big">
+                        <fieldset >
+                            <legend for="bwidth">border width</legend><br>
+                            <input type="text" id="bwidth" name="bwidth" value="1">
+                        </fieldset>
                     </div>
-                    <div>
-                        <label for="bcolor">border-color</label><br>
-                        <input type="color" id="bcolor" name="bcolor">
+                    <div class="big">
+                        <fieldset>
+                            <legend for="bcolor">border-color</legend><br>
+                            <input type="color" id="bcolor" name="bcolor">
+                        </fieldset>
                     </div>
-
                 </form>
             </section>
         <section id="main-section">
