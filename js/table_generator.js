@@ -14,8 +14,8 @@ function generateTable(){
         table_html.innerHTML += "\n\t<tr>";
         for (let z = 0;z<row_num;z++){
             let td_node = document.createElement('td');
-            td_node.innerText='CELL'+''+i+''+z;
-            table_html.innerHTML += "\n\t\t<td>\n\t\t\tCELL"+''+i+""+z+"\n\t\t</td>";
+            td_node.innerText='CELL'+''+i+' '+z;
+            table_html.innerHTML += "\n\t\t<td>\n\t\t\tCELL"+''+i+" "+z+"\n\t\t</td>";
             tr_node.appendChild(td_node);
         }
         table_html.innerHTML += "\n\t</tr>";
