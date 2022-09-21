@@ -70,10 +70,19 @@ input{
     padding: 5px;
 }
 #table-render-space{
-    padding: 5px;
+    padding: 20px;
     background-color: antiquewhite;
+    text-align: center;
+}
+
+textarea{
+    height: 30%;
+    width: 100%;
 }
 #table-html-space{
-    padding: 5px;
+    padding: 30px 10px 10px;
     background-color: red;
+}
+label{
+    display: none;
 }

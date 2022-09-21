@@ -1,6 +1,9 @@
 <html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/table.css">
+    <script src="../js/table_generator.js" type="module" ></script>
+    <title>Assignment</title>
 </head>
 <body>
     <section id="main_container">
@@ -12,44 +15,44 @@
                 <form>
                     <div>
                         <fieldset>
-                            <legend for="rcount">row count</legend><br>
+                            <legend>row count</legend><br>
                             <input type="text" id="rcount" name="rcount" value="2" pattern="[0-9]+">
                         </fieldset>
                     </div>
                     <div>
                         <fieldset>
-                            <legend for="ccount">col count</legend><br>
-                            <input type="text" id="ccount" name="ccount" value="2">
+                            <legend>col count</legend><br>
+                            <input type="text" id="ccount" name="ccount" value="2" pattern="[0-9]+">
                         </fieldset>
                     </div>
                     <div>
                         <fieldset>
-                            <legend for="twidth">table width</legend><br>
+                            <legend>table width</legend><br>
                             <input type="number" id="twidth" name="twidth" value="80">
                         </fieldset>
                     </div>
                     <div>
                         <fieldset>
-                            <legend for="tcolor">text color</legend><br>
+                            <legend>text color</legend><br>
                             <input type="color" id="tcolor" name="tcolor">
                         </fieldset>
                     </div>
                     <div class="big">
                         <fieldset>
-                            <legend for="bgcolor">bg color</legend><br>
+                            <legend>bg color</legend><br>
                             <input type="color" id="bgcolor" name="bgcolor" value="#FFFFFF">
                         </fieldset>
                     </div>
                     <div class="big">
                         <fieldset >
-                            <legend for="bwidth">border width</legend><br>
-                            <input type="text" id="bwidth" name="bwidth" value="1">
+                            <legend>border width</legend><br>
+                            <input type="text" id="bwidth" name="bwidth" value="1" pattern="[0-9]+">
                         </fieldset>
                     </div>
                     <div class="big">
                         <fieldset>
-                            <legend for="bcolor">border-color</legend><br>
-                            <input type="color" id="bcolor" name="bcolor">
+                            <legend>border-color</legend><br>
+                            <input type="color" id="bcolor" name="bcolor" value="#000000">
                         </fieldset>
                     </div>
                 </form>
@@ -59,7 +62,6 @@
 
             </section>
             <section id = "table-html-space">
-
             </section>
         </section>
         </section>
@@ -67,5 +69,14 @@
             Hoang Quoc Le,2131769,Sec 3,copyright @Fall 2022
         </footer>
     </section>
+    <aside>
+        <label for="rcount"></label>
+        <label for="ccount"></label>
+        <label for="twidth"></label>
+        <label for="tcolor"></label>
+        <label for="bgcolor"></label>
+        <label for="bwidth"></label>
+        <label for="bcolor"></label>
+    </aside>
 </body>
 </html>

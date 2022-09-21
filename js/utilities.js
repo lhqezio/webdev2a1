@@ -1,14 +1,17 @@
 "use strict";
 
-function changeTextColor(){
-
+export function changeTextColor(elem,color){
+    elem.style.color = color;
 }
-function changeBackground(){
-
+export function changeBackground(elem,color){
+    elem.style.backgroundColor = color;
 }
-function changeTagWidth(){
-
+export function changeTagWidth(elem,size){
+    elem.style.width = size+'%';
 }
-function changeBorderColor(){
-
+export function changeBorderColor(elem,color){
+    elem.style.borderColor = color;
+}
+export function changeBorderWidth(elem,size){
+    elem.style.borderWidth = size+'px';
 }
